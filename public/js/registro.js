@@ -22,8 +22,7 @@ registerForm.addEventListener("submit", async (e) => {
 
     if (response.ok) {
       messageDiv.className = "message success";
-      messageDiv.textContent =
-        "¡Registro exitoso! Revisa tu email para confirmar.";
+      messageDiv.textContent = "¡Registro exitoso!";
       messageDiv.style.display = "block";
 
       registerForm.reset();
